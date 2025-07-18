@@ -10,7 +10,7 @@
       "executor": "@angular/build:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/companion",
+        "outputPath": "apps/companion/dist",
         "browser": "apps/companion/src/main.ts",
         "polyfills": ["zone.js"],
         "tsConfig": "apps/companion/tsconfig.app.json",
