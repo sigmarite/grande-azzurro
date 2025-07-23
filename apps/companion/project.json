@@ -85,6 +85,13 @@
         "staticFilePath": "dist/apps/companion/browser",
         "spa": true
       }
+    },
+    "deploy":  {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "firebase deploy",
+          "cwd": "apps/companion"
+        }
     }
   }
 }
